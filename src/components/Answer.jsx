@@ -1,4 +1,7 @@
+import { useGlobalContext } from '../context/AppContext';
+
 const Answer = () => {
+	const { show } = useGlobalContext();
 	return (
 		<>
 			<p className={`text-justify italic pr-10 ${!show ? 'hidden' : null}`}>

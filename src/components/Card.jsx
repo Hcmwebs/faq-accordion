@@ -7,8 +7,8 @@ const Card = () => {
 		setShow(!show);
 	};
 	return (
-		<div className='grid grid-col-1 bg-white mx-auto w-full max-w-sm lg:max-w-[600px]'>
-			<h1 className='text-4xl'>Card goes here</h1>
+		<div className='grid grid-col-1 place-item-center bg-white w-full max-w-sm lg:max-w-[600px] rounded absolute top-24 lg:top-40 left-[50%] -translate-x-1/2'>
+			<h1 className='text-4xl text-center'>Card goes here</h1>
 
 			<div className='grid grid-col-1 place-items-center gap-y-4 px-6 text-justify'>
 				<header className='flex gap-x-8'>

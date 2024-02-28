@@ -1,4 +1,4 @@
-import Button from './Button';
+import { Button } from './index';
 
 const Question = () => {
 	return (
@@ -9,7 +9,7 @@ const Question = () => {
 					facere ab nobis placeat dolores voluptatum blanditiis dolor.
 					Architecto, pariatur eligendi.
 				</h2>
-				<Button onClick={onClick} />
+				<Button onClick={toggleShow} />
 			</header>
 		</>
 	);

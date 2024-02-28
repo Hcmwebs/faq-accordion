@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { Title } from './index';
 
 const Card = () => {
 	const [show, setShow] = useState(false);
@@ -7,8 +8,8 @@ const Card = () => {
 		setShow(!show);
 	};
 	return (
-		<div className='grid grid-col-1 place-item-center bg-white w-full max-w-sm lg:max-w-[600px] rounded absolute top-24 lg:top-40 left-[50%] -translate-x-1/2'>
-			<h1 className='text-4xl text-center'>Card goes here</h1>
+		<div className='grid grid-col-1 place-item-center gap-y-6 p-6 bg-white w-full max-w-[327px] lg:max-w-[600px] rounded-lg shadow-xl hover:shadow-2xl absolute top-[90px] lg:top-[150px] left-[50%] -translate-x-1/2'>
+			<Title text='FAQs' />
 
 			<div className='grid grid-col-1 place-items-center gap-y-4 px-6 text-justify'>
 				<header className='flex gap-x-8'>

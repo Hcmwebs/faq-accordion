@@ -1,6 +1,8 @@
+import { useGlobalContext } from '../context/AppContext';
 import { ButtonOpen, ButtonClose } from './index';
 
 const Question = () => {
+	const { toggleShow, show } = useGlobalContext();
 	return (
 		<>
 			<header className='flex gap-x-8'>
@@ -10,7 +12,7 @@ const Question = () => {
 					Architecto, pariatur eligendi.
 				</h2>
 				<button onClick={toggleShow} className='btn-primary'>
-					{show ? <ButtonOpen /> : <ButtonClose />}
+					{show ? <ButtonClose /> : <ButtonOpen />}
 				</button>
 			</header>
 		</>

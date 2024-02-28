@@ -1,4 +1,4 @@
-const items = [
+export const items = [
 	{
 		id: 1,
 		question: 'What is Frontend Mentor, and how will it help me?',
@@ -24,5 +24,3 @@ const items = [
 			'The best (and quickest) way to get help on a challenge is in our Discord server. There are thousands of other developers in there, so it is a great place to ask questions. We even have a dedicated "help" channel! If you have not joined yet, you can get an invite to our Discord server here.',
 	},
 ];
-
-export { items };

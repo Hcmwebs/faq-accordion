@@ -8,7 +8,6 @@ const Card = () => {
 			{items.map((item) => {
 				return <Item key={item.id} {...item} />;
 			})}
-			<Item />
 		</div>
 	);
 };

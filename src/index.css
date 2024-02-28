@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	body {
+		@apply grid grid-cols-1 place-items-center min-h-screen bg-white/50 bg-contain bg-no-repeat bg-top bg-mobile lg:bg-desktop relative;
+	}
+}

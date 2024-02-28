@@ -1,4 +1,4 @@
-import { Button } from './index';
+import { ButtonOpen, ButtonClose } from './index';
 
 const Question = () => {
 	return (
@@ -9,7 +9,9 @@ const Question = () => {
 					facere ab nobis placeat dolores voluptatum blanditiis dolor.
 					Architecto, pariatur eligendi.
 				</h2>
-				<Button onClick={toggleShow} />
+				<button onClick={toggleShow} className='btn-primary'>
+					{show ? <ButtonOpen /> : <ButtonClose />}
+				</button>
 			</header>
 		</>
 	);

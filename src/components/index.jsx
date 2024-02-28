@@ -1,9 +1,8 @@
-import Answer from './Answer';
 import ButtonClose from './ButtonClose';
 import ButtonOpen from './ButtonOpen';
 import Card from './Card';
-import Item from './Item';
-import Question from './Question';
+import Accordion from './Accordion';
+
 import Title from './Title';
 
-export { ButtonClose, ButtonOpen, Card, Title, Item, Question, Answer };
+export { ButtonClose, ButtonOpen, Card, Title, Accordion };

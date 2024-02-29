@@ -1,15 +1,11 @@
 import { Accordion, Title } from './index';
-import { useGlobalContext } from '../context/AppContext';
 
 const Card = () => {
-	const { questions } = useGlobalContext();
 	return (
-		<div className='grid grid-col-1 place-item-center p-6 lg:p-10 bg-white w-[90vw] max-w-sm lg:max-w-xl rounded-lg lg:rounded-2xl shadow-xl hover:shadow-2xl absolute top-[90px] lg:top-[150px] left-[50%] -translate-x-1/2'>
+		<section className='grid grid-col-1 place-item-center gap-y-6 lg:gap-y-8 p-6 lg:p-10 bg-white w-[90vw] max-w-[327px] lg:max-w-[600px] rounded-lg lg:rounded-2xl shadow-xl hover:shadow-2xl absolute top-[90px] lg:top-[150px] left-[50%] -translate-x-1/2'>
 			<Title text='FAQs' />
-			{questions.map((question) => {
-				return <Accordion key={question.id} {...question} />;
-			})}
-		</div>
+			<Accordion />
+		</section>
 	);
 };
 

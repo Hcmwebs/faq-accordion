@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Accordion](./src/assets/screenshots/accordion.png)
+![Accordion](./src/assets/screenshots/Accordion.png)
 ![AccordionOnHover](./src/assets/screenshots/AccordionOnHover.png)
 ![AccordionOpen](./src/assets/screenshots/AccordionOpen.png)
 

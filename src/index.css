@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		font-family: 'Work Sans', sans-serif;
+	}
 	body {
 		@apply grid grid-cols-1 place-items-center min-h-screen bg-white/50 bg-contain bg-no-repeat bg-top bg-mobile lg:bg-desktop;
 	}

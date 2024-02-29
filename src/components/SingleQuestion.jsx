@@ -13,16 +13,13 @@ const SingleQuestion = ({ id, question, answer }) => {
 				<h2 className='max-w-56 lg:max-w-md text-left text-base lg:text-lg font-semibold'>
 					{question}
 				</h2>
-				<button
-					className='bg-transparent border-0 outline-none'
-					onClick={() => toggleQuestion(id)}
-				>
+				<span onClick={() => toggleQuestion(id)}>
 					{isActive ? (
 						<ButtonClose className='cursor-pointer' />
 					) : (
 						<ButtonOpen className='cursor-pointer' />
 					)}
-				</button>
+				</span>
 			</div>
 
 			<p

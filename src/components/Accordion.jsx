@@ -5,7 +5,7 @@ const Accordion = ({ id, question, answer }) => {
 	const { activeId, toggleQuestion } = useGlobalContext();
 	const isActive = id === activeId;
 	return (
-		<div className='grid grid-col-1 py-5 gap-y-6'>
+		<div className='grid grid-col-1 py-5 lg:py-6 gap-y-6'>
 			<button
 				type='button'
 				className='w-full px-4 py-3 bg-transparent text-black hover:text-primary border-0 flex justify-between align-center shadow-sm cursor-pointer'

@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution ](https://your-solution-url.com)
-- [Live Site ](https://your-live-site-url.com)
+- [Solution ](https://www.frontendmentor.io/solutions/react-and-tailwinddaisyui-dPqhYvF_FK)
+- [Live Site ](https://faq-accordion-xi-wine.vercel.app/)
 
 ## My process
 

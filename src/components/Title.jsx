@@ -1,6 +1,6 @@
 const Title = ({ text }) => {
 	return (
-		<div className='grid grid-cols-1 place-items-start'>
+		<div className='grid grid-cols-1 place-items-start mb-1'>
 			<h1 className='text-3xl lg:text-6xl font-bold text-black text-center flex justify-center gap-x-6'>
 				<span className='w-6 lg:w-10 h-6 lg:h-10 lg:self-center'>
 					<svg

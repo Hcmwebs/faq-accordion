@@ -8,10 +8,12 @@ const Accordion = ({ id, question, answer }) => {
 		<div className='py-3'>
 			<button
 				type='button'
-				className='w-full px-4 py-3 bg-transparent text-black border-0 flex justify-between shadow-sm cursor-pointer'
+				className='w-full px-4 py-3 bg-transparent text-black hover:text-primary border-0 flex justify-between shadow-sm cursor-pointer'
 				onClick={() => toggleQuestion(id)}
 			>
-				<span className='max-w-52 lg:max-w-sm text-left'>{question}</span>
+				<span className='max-w-52 lg:max-w-sm text-left text-base lg:text-lg font-semibold'>
+					{question}
+				</span>
 				{isActive ? (
 					<ButtonClose className='cursor-pointer' />
 				) : (
@@ -26,7 +28,9 @@ const Accordion = ({ id, question, answer }) => {
 							: 'grid-rows-[0fr] opacity-0'
 					}`}
 				>
-					<p className='overflow-hidden py-3 px-4 text-left'>{answer}</p>
+					<p className='overflow-hidden py-3 px-4 text-left text-neutral text-base font-normal'>
+						{answer}
+					</p>
 				</div>
 			)}
 		</div>

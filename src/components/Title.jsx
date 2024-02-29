@@ -1,8 +1,8 @@
 const Title = ({ text }) => {
 	return (
 		<div className='grid grid-cols-1 place-items-start'>
-			<h1 className='text-4xl text-center flex gap-x-6'>
-				<span>
+			<h1 className='text-3xl lg:text-6xl font-bold text-black text-center flex justify-center gap-x-6'>
+				<span className='w-6 lg:w-10 h-6 lg:h-10 lg:self-center'>
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						width='40'

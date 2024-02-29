@@ -8,10 +8,10 @@ const Accordion = ({ id, question, answer }) => {
 		<div className='py-3'>
 			<button
 				type='button'
-				className='w-full px-4 py-3 bg-transparent text-black hover:text-primary border-0 flex justify-between shadow-sm cursor-pointer'
+				className='w-full px-4 py-3 bg-transparent text-black hover:text-primary border-0 flex justify-between align-center shadow-sm cursor-pointer'
 				onClick={() => toggleQuestion(id)}
 			>
-				<span className='max-w-52 lg:max-w-sm text-left text-base lg:text-lg font-semibold'>
+				<span className='max-w-56 lg:max-w-md text-left text-base lg:text-lg font-semibold'>
 					{question}
 				</span>
 				{isActive ? (
